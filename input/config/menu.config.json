@@ -1,0 +1,132 @@
+[
+    {
+        "name": "Menù principale",
+        "position": "mainMenu",
+        "items": [
+            {
+                "id": 1610361196516,
+                "label": "Romanzi",
+                "title": "",
+                "type": "separator",
+                "target": "_self",
+                "rel": "",
+                "link": "",
+                "cssClass": "",
+                "items": [
+                    {
+                        "id": 1603202793940,
+                        "label": "Universale Remedium",
+                        "title": "",
+                        "type": "post",
+                        "target": "_self",
+                        "rel": "",
+                        "link": 20,
+                        "cssClass": "",
+                        "items": []
+                    },
+                    {
+                        "id": 1610361086051,
+                        "label": "Papà è nel tavolino",
+                        "title": "",
+                        "type": "post",
+                        "target": "_self",
+                        "rel": "",
+                        "link": 39,
+                        "cssClass": "",
+                        "items": []
+                    }
+                ]
+            },
+            {
+                "id": 1611834039540,
+                "label": "Racconti",
+                "title": "",
+                "type": "separator",
+                "target": "_self",
+                "rel": "",
+                "link": "",
+                "cssClass": "",
+                "items": [
+                    {
+                        "id": 1611834075763,
+                        "label": "Il Contastorie",
+                        "title": "",
+                        "type": "post",
+                        "target": "_self",
+                        "rel": "",
+                        "link": 110,
+                        "cssClass": "",
+                        "items": []
+                    },
+                    {
+                        "id": 1615225844717,
+                        "label": "Il messia meccanico",
+                        "title": "",
+                        "type": "post",
+                        "target": "_self",
+                        "rel": "",
+                        "link": 262,
+                        "cssClass": "",
+                        "items": []
+                    },
+                    {
+                        "id": 1614255148135,
+                        "label": "Asporti non autorizzati",
+                        "title": "",
+                        "type": "post",
+                        "target": "_self",
+                        "rel": "",
+                        "link": 205,
+                        "cssClass": "",
+                        "items": []
+                    }
+                ]
+            },
+            {
+                "id": 1615225822752,
+                "label": "Biografia",
+                "title": "",
+                "type": "post",
+                "target": "_self",
+                "rel": "",
+                "link": 263,
+                "cssClass": "",
+                "items": []
+            },
+            {
+                "id": 1615225782695,
+                "label": "Media",
+                "title": "",
+                "type": "separator",
+                "target": "_self",
+                "rel": "",
+                "link": "",
+                "cssClass": "",
+                "items": [
+                    {
+                        "id": 1615225801268,
+                        "label": "Galleria",
+                        "title": "",
+                        "type": "post",
+                        "target": "_self",
+                        "rel": "",
+                        "link": 264,
+                        "cssClass": "",
+                        "items": []
+                    }
+                ]
+            },
+            {
+                "id": 1615807818951,
+                "label": "Contatti",
+                "title": "",
+                "type": "post",
+                "target": "_self",
+                "rel": "",
+                "link": 265,
+                "cssClass": "",
+                "items": []
+            }
+        ]
+    }
+]
