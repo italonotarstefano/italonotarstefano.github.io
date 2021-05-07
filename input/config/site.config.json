@@ -73,7 +73,9 @@
             "numberOfPosts": 10,
             "showFeaturedImage": 1,
             "enableRss": 1,
-            "enableJson": 1
+            "enableJson": 1,
+            "showOnlyFeatured": 0,
+            "excludeFeatured": 0
         },
         "urls": {
             "cleanUrls": true,
@@ -137,12 +139,17 @@
         "relatedPostsOrder": "id-asc",
         "relatedPostsCriteria": "titles",
         "relatedPostsIncludeAllPosts": true,
+        "editors": {
+            "wysiwygAdditionalValidElements": "",
+            "codemirrorTabSize": 4,
+            "codemirrorAutoIndent": true
+        },
         "customHTML": {
             "afterPost": ""
         }
     },
     "deployment": {
-        "protocol": "manual",
+        "protocol": "netlify",
         "relativeUrls": false,
         "port": "",
         "server": "",
@@ -167,10 +174,10 @@
         },
         "github": {
             "server": "api.github.com",
-            "user": "",
-            "repo": "",
-            "branch": "",
-            "token": "",
+            "user": "italonotarstefano",
+            "repo": "italonotarstefano.github.io",
+            "branch": "gh-pages",
+            "token": "publii-gh-token italo-notarstefano",
             "parallelOperations": 1,
             "apiRateLimiting": 1
         },
@@ -181,8 +188,8 @@
             "token": ""
         },
         "netlify": {
-            "id": "",
-            "token": ""
+            "id": "publii-netlify-id italo-notarstefano",
+            "token": "publii-netlify-token italo-notarstefano"
         },
         "google": {
             "key": "",
@@ -195,5 +202,5 @@
         }
     },
     "theme": "simple",
-    "syncDate": 1612776240218
+    "syncDate": 1620406613351
 }
