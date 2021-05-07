@@ -26,7 +26,7 @@
         "sitemapExcludedFiles": "",
         "usePageTitleInsteadItemName": false,
         "openGraphEnabled": 1,
-        "openGraphImage": "",
+        "openGraphImage": "italo_notarstefano_lucca_2019.jpg",
         "openGraphAppId": "",
         "twitterCardsEnabled": 1,
         "twitterCardsType": "summary",
@@ -101,8 +101,8 @@
         "customHeadCode": "",
         "customHeadAmpCode": "",
         "customBodyCode": "",
-        "customFooterCode": "",
-        "customFooterAmpCode": "",
+        "customFooterCode": "<script>\n  if ( window.location.origin === window.location.href || ( window.location.href.startsWith( 'file:///home/' ) && window.location.href.endsWith( '/preview/index.html' ) ) ) {\n\n  \tvar postEl = document.getElementsByClassName('post__entry')[0];\n  \tpostEl.parentNode.removeChild(postEl);\n \n  \tdocument.body.style.background = \"#17181E\";\n  \t\n    document.getElementsByClassName('hero')[0].style.height = \"100vh\";\n  \tdocument.getElementsByClassName('footer')[0].style.margin = \"0 auto\";\n  \tdocument.getElementsByClassName('footer')[0].style.padding = \"1vh 6vw\";\n  \n    document.getElementsByClassName('hero__content')[0].classList.add('home-page');\n  \n    var footer = document.getElementsByClassName('footer')[0];\n  \tfooter.parentNode.removeChild(footer);\n  }\n</script>",
+        "customFooterAmpCode": "<script>\n  if ( window.location.origin === window.location.href || ( window.location.href.startsWith( 'file:///home/' ) && window.location.href.endsWith( '/preview/index.html' ) ) ) {\n\n  \tvar postEl = document.getElementsByClassName('post__entry')[0];\n\t\n  \tpostEl.parentNode.removeChild(postEl);\n \n  \tdocument.body.style.background = \"#17181E\";\n  \tdocument.getElementsByClassName('hero')[0].style.height = \"84vh\";\n  \tdocument.getElementsByClassName('footer')[0].style.margin = \"0 auto\";\n  \tdocument.getElementsByClassName('footer')[0].style.padding = \"1vh 6vw\";\n  }\n</script>",
         "gdpr": {
             "enabled": false,
             "popupTitlePrimary": "This website uses cookies",
@@ -136,7 +136,10 @@
         },
         "relatedPostsOrder": "id-asc",
         "relatedPostsCriteria": "titles",
-        "relatedPostsIncludeAllPosts": true
+        "relatedPostsIncludeAllPosts": true,
+        "customHTML": {
+            "afterPost": ""
+        }
     },
     "deployment": {
         "protocol": "manual",
@@ -151,6 +154,9 @@
         "passphrase": "",
         "sftpkey": "",
         "s3": {
+            "customProvider": false,
+            "provider": "aws",
+            "endpoint": "",
             "id": "",
             "key": "",
             "bucket": "",

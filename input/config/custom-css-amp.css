@@ -1,0 +1,3 @@
+.hero__image--overlay::after {
+	background: linear-gradient(to bottom,rgba(0,0,0, .64) 0%, transparent 50%,rgba(0,0,0,.64) 100%); 
+}

@@ -83,17 +83,6 @@
                 ]
             },
             {
-                "id": 1615225822752,
-                "label": "Biografia",
-                "title": "",
-                "type": "post",
-                "target": "_self",
-                "rel": "",
-                "link": 263,
-                "cssClass": "",
-                "items": []
-            },
-            {
                 "id": 1615225782695,
                 "label": "Media",
                 "title": "",

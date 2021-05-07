@@ -63,7 +63,7 @@
         "lineHeight": "1.7",
         "fontHeadignsWeight": "700",
         "fontHeadingsTransform": "none",
-        "search": true,
+        "search": false,
         "searchId": "",
         "searchParam": "q",
         "shareFacebook": false,
