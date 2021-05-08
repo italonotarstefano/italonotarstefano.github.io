@@ -101,8 +101,8 @@
         "formatDate": "D MMMM YYYY",
         "formatDateCustom": "HH:mm:ss YY/MM/DD",
         "lazyLoadEffect": "fadein",
-        "faviconUpload": "",
-        "faviconExtension": "image/x-icon"
+        "faviconUpload": "media/website/favicon-96x96.png",
+        "faviconExtension": "image/png"
     },
     "postConfig": {
         "displayDate": "0",
